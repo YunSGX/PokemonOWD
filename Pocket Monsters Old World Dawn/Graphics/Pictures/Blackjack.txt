@@ -1,0 +1,103 @@
+def pbBlackJack
+  viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
+  viewport.z=999899
+  sprites={}
+  
+  robo = 0
+  turno = 0
+  totalJ = 0
+  totalR = 0
+  diffJ = 0
+  diffR = 0
+  
+  sprites["bg"]=Sprite.new
+  sprites["bg"].z=99999
+  sprites["bg"].bitmap= BitmapCache.load_bitmap("Graphics/Pictures/BlackJack/background")
+  
+  sprites["cartaPlayer"]=IconSprite.new(0,0,viewport)
+  sprites["cartaPlayer"].setBitmap("Graphics/Pictures/BlackJack/0_0")
+  sprites["cartaPlayer"].x =224
+  sprites["cartaPlayer"].y =199
+  
+  sprites["cartaRival"]=IconSprite.new(0,0,viewport)
+  sprites["cartaRival"].setBitmap("Graphics/Pictures/BlackJack/CartaVol")
+  sprites["cartaRival"].x =224
+  sprites["cartaRival"].y =36
+  
+  sprites["overlay"]=BitmapSprite.new(Graphics.width, Graphics.height, viewport)
+    
+  loop do
+    Graphics.update
+    Input.update
+    
+    overlay=sprites["overlay"].bitmap
+    overlay.clear
+    baseColor=Color.new(32,32,32)
+    shadowColor=Color.new(110,110,110)
+    pbSetSystemFont(sprites["overlay"].bitmap)
+    textPositions=[
+    [_INTL("{1}",totalJ),17,230,0,baseColor,shadowColor]
+    ]
+    pbDrawTextPositions(overlay,textPositions)
+    
+    cmd=Kernel.pbMessage(_INTL("¿Quieres robar una carta?"),[
+                          _INTL("Sí"),
+                          _INTL("No")],-1)
+    if cmd==0 
+      turno = 0
+      robo = rand(9)
+      sprites["cartaPlayer"].setBitmap("Graphics/Pictures/BlackJack/1_#{robo}")
+      if robo == 0
+        valor=Kernel.pbMessage(_INTL("Tienes un As, ¿qué valor le das?"),[
+                          _INTL("1"),
+                          _INTL("11")],-1)
+        if valor == 0
+          robo = 0
+        else
+          robo = 10
+        end  
+      end
+      totalJ += robo+1
+      pbWait(15)
+      Kernel.pbMessage(_INTL("El rival roba una carta."))
+      pbWait(15)
+      robo = rand(9)
+      totalR += robo+1
+    else
+      Kernel.pbMessage(_INTL("Vamos a contar."))
+      if totalJ <= 21
+        diffJ+=21-totalJ
+      else
+        diffJ+=totalJ-21
+      end  
+      if totalR <= 21
+        diffR+=21-totalR
+      else
+        diffR+=totalR-21
+      end  
+      Kernel.pbMessage(_INTL("Tienes la suma total de {1} y tu rival tiene {2}.",totalJ,totalR))
+      pbWait(10)
+      if (diffJ < diffR || totalR > 21) && totalJ <= 21
+        Kernel.pbMessage(_INTL("¡Has ganado!"))
+        pbFadeOutAndHide(sprites){pbUpdateSpriteHash(sprites)}
+        pbDisposeSpriteHash(sprites)
+        viewport.dispose if viewport
+        return true
+        break
+      elsif totalJ > 21
+        Kernel.pbMessage(_INTL("¡Has perdido!"))
+        pbFadeOutAndHide(sprites){pbUpdateSpriteHash(sprites)}
+        pbDisposeSpriteHash(sprites)
+        viewport.dispose if viewport
+        return false
+        break
+      else Kernel.pbMessage(_INTL("¡Has perdido!"))
+        pbFadeOutAndHide(sprites){pbUpdateSpriteHash(sprites)}
+        pbDisposeSpriteHash(sprites)
+        viewport.dispose if viewport
+        return false
+        break  
+      end  
+    end
+  end  
+end  

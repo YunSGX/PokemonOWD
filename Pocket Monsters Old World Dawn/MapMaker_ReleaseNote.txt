@@ -1,0 +1,96 @@
+def notiLogro(logro)
+    viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
+  
+    @logro={}
+    @logro["logro"] = Sprite.new(viewport)
+    @logro["logro"].z=99998   
+    @logro["logro"].bitmap=BitmapCache.load_bitmap("Graphics/Pictures/Logros/notilogro")
+    @logro["logro"].x=512
+    @logro["logro"].y=0
+    
+    @logro["icon"] = Sprite.new(@vista)
+    @logro["icon"].z=99999   
+    @logro["icon"].bitmap=BitmapCache.load_bitmap("Graphics/Pictures/Logros/img/#{logro}c.png",logro)
+    @logro["icon"].x=@logro["logro"].x+8
+    @logro["icon"].y=8
+    
+    @logro["copa"] = Sprite.new(@vista)
+    @logro["copa"].z=99999 
+    if logro==0
+      @logro["copa"].bitmap=BitmapCache.load_bitmap("Graphics/Pictures/Logros/trofPlatino")
+    elsif logro==1 || logro==2   
+      @logro["copa"].bitmap=BitmapCache.load_bitmap("Graphics/Pictures/Logros/trofOro")
+    elsif logro>=3 || logro<=6   
+      @logro["copa"].bitmap=BitmapCache.load_bitmap("Graphics/Pictures/Logros/trofPlata")  
+    else
+      @logro["copa"].bitmap=BitmapCache.load_bitmap("Graphics/Pictures/Logros/trofBronce")
+    end  
+    @logro["copa"].x=@logro["logro"].x+116
+    @logro["copa"].y=18
+    
+    9.times do
+      @logro["logro"].x-=20
+      @logro["icon"].x-=20
+      @logro["copa"].x-=20
+      pbWait(2)
+    end
+    pbSEPlay("Logro")
+      pbWait(30)
+      9.times do
+        @logro["logro"].x+=20
+        @logro["icon"].x+=20
+        @logro["copa"].x+=20
+        pbWait(2)
+      end
+    @logro["logro"].dispose
+    @logro["icon"].dispose
+    @logro["copa"].dispose
+end 
+
+def isLogroCompleted(index)
+  $PokemonGlobal.loadLogros
+  if index >= 0 && index < $PokemonGlobal.logros.size
+    if $PokemonGlobal.logros[index] == 3
+      return true
+    else
+      return false
+    end
+    return false
+  end
+end
+
+Events.onMapUpdate+=proc {|sender,e|
+ 
+ 
+  #################LOGROS##################
+  if $game_switches[40]
+    if !isLogroCompleted(0)
+      if $PokemonGlobal.logros[1]==3 && $PokemonGlobal.logros[2]==3 && $PokemonGlobal.logros[3]==3 && $PokemonGlobal.logros[4]==3 && $PokemonGlobal.logros[5]==3 && $PokemonGlobal.logros[6]==3 && $PokemonGlobal.logros[7]==3 &&
+      $PokemonGlobal.logros[8]==3 && $PokemonGlobal.logros[9]==3 && $PokemonGlobal.logros[10]==3 && $PokemonGlobal.logros[11]==3 && $PokemonGlobal.logros[12]==3 && $PokemonGlobal.logros[13]==3 && $PokemonGlobal.logros[14]==3 
+        setLogro(0,3)
+      end
+    end  
+    
+    
+    if !isLogroCompleted(4)
+      if $PokemonBag.pbHasItem?(:RBALLS2) && $PokemonBag.pbHasItem?(:RCONSUMIBLES2) && $PokemonBag.pbHasItem?(:REQUIPO2) && $PokemonBag.pbHasItem?(:RMATERIALES2)
+        setLogro(4,3)
+      end 
+    end
+    
+    if !isLogroCompleted(8)
+      if $game_variables[43] >= 5
+         setLogro(8,3)
+      end
+    end
+    
+    if !isLogroCompleted(10)
+      if $Trainer.owned[PBSpecies::HATENNA] && $Trainer.owned[PBSpecies::SNEASEL] && $Trainer.owned[PBSpecies::FOMANTIS] && $Trainer.owned[PBSpecies::TEDDIURSA]
+        setLogro(10,3)
+      end
+    end
+  end  
+
+ 
+  #########################################
+}

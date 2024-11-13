@@ -1,0 +1,20 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------
+TANTALUS
+Bufón
+3
+MRMIME,27
+HATTREM,27
+BLACEPHALON,28
+#-------------------
+TRUHAN
+McQueen
+1
+CHIMCHAR,12
+#-------------------
+EXPLORADORA
+Mimi
+3
+CHIMCHAR,12
+CHIMCHAR,12
+CHIMCHAR,12

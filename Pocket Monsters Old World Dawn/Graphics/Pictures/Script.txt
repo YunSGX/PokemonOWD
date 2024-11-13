@@ -1,0 +1,152 @@
+#Script de lootboxes creado por Nyaruko
+#Si metes micropagos no me hago responsable
+
+COMUNES = [PBItems::POTION,PBItems::POKEBALL,PBItems::ANTIDOTE]
+RAROS = [PBItems::FULLHEAL,PBItems::GREATBALL,PBItems::REVIVE]
+LEGENDARIOS = [PBItems::MAXREVIVE,PBItems::FULLRESTORE]
+EPICOS = [PBItems::MASTERBALL,PBItems::LUCKYEGG]
+
+class LootBox
+  def pbStartMainScene
+    viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
+    viewport.z=99999
+    random1=rand(100)
+    random2=rand(100)
+    random3=rand(100)
+    pbSetViableDexes
+    select = 0
+    comunes = COMUNES
+    raros = RAROS
+    legendarios = LEGENDARIOS
+    epicos = EPICOS
+    sprites={}
+    sprites["bg"]=Sprite.new
+    sprites["bg"].z=99998
+    sprites["bg"].bitmap= BitmapCache.load_bitmap("Graphics/Pictures/Lootboxes/background")
+    
+    sprites["bolsa"]=IconSprite.new(0,0,viewport)
+    sprites["bolsa"].setBitmap("Graphics/Pictures/Lootboxes/bag_closed")
+    sprites["bolsa"].x =157
+    sprites["bolsa"].y =256
+    
+    sprites["item1"]=IconSprite.new(0,0,viewport)    
+    sprites["item1"].x = 227
+    sprites["item1"].y = 135
+    
+    sprites["item2"]=IconSprite.new(0,0,viewport)    
+    sprites["item2"].x = 99
+    sprites["item2"].y = 135
+    
+    sprites["item3"]=IconSprite.new(0,0,viewport)    
+    sprites["item3"].x = 355
+    sprites["item3"].y = 135
+    
+    sprites["icon1"]=IconSprite.new(0,0,viewport)    
+    sprites["icon1"].x = 237
+    sprites["icon1"].y = 171
+    
+    sprites["icon2"]=IconSprite.new(0,0,viewport)    
+    sprites["icon2"].x = 109
+    sprites["icon2"].y = 171
+    
+    sprites["icon3"]=IconSprite.new(0,0,viewport)    
+    sprites["icon3"].x = 365
+    sprites["icon3"].y = 171
+    
+    sprites["overlay"]=BitmapSprite.new(Graphics.width, Graphics.height, viewport)
+    
+    loop do
+      Graphics.update
+      Input.update
+      #if Input.trigger?(Input::C)
+        pbSEPlay("select")
+        pbWait(20)
+        sprites["bolsa"].setBitmap("Graphics/Pictures/Lootboxes/bag_open")
+        #Item 1
+        if random1 <= 40
+          sprites["item1"].setBitmap("Graphics/Pictures/Lootboxes/item_comun")
+          pbWait(20)
+          item1=rand(comunes.length)
+          sprites["icon1"].setBitmap(pbItemIconFile(comunes[item1]))
+          Kernel.pbReceiveItem(comunes[item1])
+        elsif random1 <= 70 && random1 > 40
+          sprites["item1"].setBitmap("Graphics/Pictures/Lootboxes/item_raro")
+          pbWait(20)
+          item1=rand(raros.length)
+          sprites["icon1"].setBitmap(pbItemIconFile(raros[item1]))
+          Kernel.pbReceiveItem(raros[item1])
+        elsif random1 <= 90 && random1 > 70
+          sprites["item1"].setBitmap("Graphics/Pictures/Lootboxes/item_legend")
+          pbWait(20)
+          item1=rand(legendarios.length)
+          sprites["icon1"].setBitmap(pbItemIconFile(legendarios[item1]))
+          Kernel.pbReceiveItem(legendarios[item1])
+        else
+          sprites["item1"].setBitmap("Graphics/Pictures/Lootboxes/item_epico")
+          pbWait(20)
+          item1=rand(epicos.length)
+          sprites["icon1"].setBitmap(pbItemIconFile(epicos[item1]))
+          Kernel.pbReceiveItem(epicos[item1])
+        end
+        #Item 2
+        if random2 <= 40
+          sprites["item2"].setBitmap("Graphics/Pictures/Lootboxes/item_comun")
+          pbWait(20)
+          leng = 
+          item2=rand(comunes.length)
+          sprites["icon2"].setBitmap(pbItemIconFile(comunes[item2]))
+          Kernel.pbReceiveItem(comunes[item2])
+        elsif random2 <= 70 && random2 > 40
+          sprites["item2"].setBitmap("Graphics/Pictures/Lootboxes/item_raro")
+          pbWait(20)
+          item2=rand(raros.length)
+          sprites["icon2"].setBitmap(pbItemIconFile(raros[item2]))
+          Kernel.pbReceiveItem(raros[item2])
+        elsif random2 <= 90 && random2 > 70
+          sprites["item2"].setBitmap("Graphics/Pictures/Lootboxes/item_legend")
+          pbWait(20)
+          item2=rand(legendarios.length)
+          sprites["icon2"].setBitmap(pbItemIconFile(legendarios[item2]))
+          Kernel.pbReceiveItem(legendarios[item2])
+        else
+          sprites["item2"].setBitmap("Graphics/Pictures/Lootboxes/item_epico") 
+          pbWait(20)
+          item2=rand(epicos.length)
+          sprites["icon2"].setBitmap(pbItemIconFile(epicos[item2]))
+          Kernel.pbReceiveItem(epicos[item2])
+        end
+        #Item 3
+        if random3 <= 40
+          sprites["item3"].setBitmap("Graphics/Pictures/Lootboxes/item_comun")
+          pbWait(20)
+          item3=rand(comunes.length)
+          sprites["icon3"].setBitmap(pbItemIconFile(comunes[item3]))
+          Kernel.pbReceiveItem(comunes[item3])
+        elsif random3 <= 70 && random3 > 40
+          sprites["item3"].setBitmap("Graphics/Pictures/Lootboxes/item_raro")
+          pbWait(20)
+          item3=rand(raros.length)
+          sprites["icon3"].setBitmap(pbItemIconFile(raros[item3]))
+          Kernel.pbReceiveItem(raros[item3])
+        elsif random3 <= 90 && random3 > 70
+          sprites["item3"].setBitmap("Graphics/Pictures/Lootboxes/item_legend") 
+          pbWait(20)
+          item3=rand(legendarios.length)
+          sprites["icon3"].setBitmap(pbItemIconFile(legendarios[item3]))
+          Kernel.pbReceiveItem(legendarios[item3])
+        else
+          sprites["item3"].setBitmap("Graphics/Pictures/Lootboxes/item_epico")
+          pbWait(20)
+          item3=rand(epicos.length)
+          sprites["icon3"].setBitmap(pbItemIconFile(epicos[item3]))
+          Kernel.pbReceiveItem(epicos[item3])
+        end
+         pbWait(10)
+          pbFadeOutAndHide(sprites){pbUpdateSpriteHash(sprites)}
+          pbDisposeSpriteHash(sprites)
+          viewport.dispose if viewport
+          break
+     # end  
+    end  
+  end
+end  

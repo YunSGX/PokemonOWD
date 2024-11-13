@@ -1,0 +1,92 @@
+﻿# Consulta la documentación en la wiki para saber lo que contiene este archivo - Editado con PBSEditor.
+0,POKEMONTRAINER_Red,Entrenadora,60,,Victory - Trainer,,Female,60
+1,NAYA,,180,,Victory - Trainer,,Female,180
+2,ALCHIKITO,Al,150,,Victory - Trainer,,Male,150
+3,TANTALUS,Extraño,150,,Victory - Trainer,,Male,150
+4,ZAZEL,Excéntrico,150,VsCompa,Victory - Trainer,,Male,150
+5,JOVEN,Joven,35,,Victory - Trainer,,Male,35
+6,JOVENCITA,Joven,35,,Victory - Trainer,,Female,35
+7,TRUHAN,Thuhán,55,,Victory - Trainer,,Male,55
+8,CAZABICHOS,Cazabichos,45,,Victory - Trainer,,Male,45
+9,EXPLORADORA,Exploradora,45,,Victory - Trainer,,Female,45
+10,BANDIDA,Bandida,55,,Victory - Trainer,,Female,55
+11,DIANA,Alumna Somnolienta,150,VsCompa,Victory - Trainer,,Female,150
+12,MONTAÑERO,Montañero,65,,Victory - Trainer,,Male,65
+13,GRANJERO,Granjero,70,,Victory - Trainer,,Male,70
+14,GRANJERA,Granjera,70,,Victory - Trainer,,Female,70
+19,KAZ,Falso Emprendedor,150,VsKaz.ogg,Victory - Trainer,,Male,150
+20,KRAVCHENKO,Capitán,150,VsKravchenko.ogg,Victory - Trainer,,Male,150
+21,RHINA,Matriarca Acechadores,150,VsRhina.ogg,Victory - Trainer,,Male,150
+22,ECLIPSE,Los Borrachos del Eclipse,55,,Victory - Trainer,,Male,55
+23,VIKINGO,Guerrero,55,,Victory - Trainer,,Male,55
+24,ADAM,Catástrofe Primigenia,220,VsKaz,,,Male,220
+25,NEU,Animatrónico,150,VsNFT.ogg,Victory - Trainer,,Male,150
+26,TRISTAN,Animatrónico,150,VsNFT.ogg,Victory - Trainer,,Male,150
+27,FURIO,Animatrónico,150,VsNFT.ogg,Victory - Trainer,,Male,150
+28,OLIVA,Oliva,220,VsOliva.ogg,Victory - Trainer,,Male,220
+29,SPEC,Convicto,200,VsSpec2.ogg,Victory - Trainer,,Male,200
+30,SIERVO,Siervo del Vacío,70,VsSiervos,Victory - Trainer,,Male,70
+31,DISPATER,Adamelej,210,VsAdamelej.ogg,,,Female,190
+32,ARIAS,Terrateniente,200,VsArias,Victory - Trainer,,Male,200
+33,RYO,Sucesor,200,VsRyo,Victory - Trainer,,Male,200
+34,ARMADURA,Armadura,100,VsSiervos,Victory - Trainer,,Male,100
+35,JOYCRAFT,Hailey Philips,200,,Victory - Trainer,,Female,200
+36,MINERO,Minero,70,,Victory - Trainer,,Male,70
+37,TRIPULANTE,Tripulante,110,,Victory - Trainer,,Male,110
+38,MARINERO,Marinero Retirado,110,,Victory - Trainer,,Male,110
+39,EXORCISTA,Exorcista,110,,,,Female,110
+40,PRIMOMIGUEL,Primo,150,VsBoss.ogg,Victory - Trainer,,Male,150
+41,CHEMA,El,150,VsBoss.ogg,Victory - Trainer,,Male,150
+42,CHAMAN,Chamám,150,VsBoss.ogg,Victory - Trainer,,Male,150
+43,PUTOSAMOS,Los,200,VsPutosAmos.ogg,Victory - Trainer,,Female,200
+44,NAYA2,Acompañante,200,VsNaya.ogg,Victory - Trainer,,Female,200
+45,PAYASO,Payaso,150,,Victory - Trainer,,Male,150
+46,EXPLOSIVO,Nano,150,VsExplosiv0.ogg,Victory - Trainer,,Male,150
+47,JUANMONO,Juan,200,,Victory - Trainer,,Male,200
+48,JUAN,Juan,200,ObraTeatro.ogg,Victory - Trainer,,Male,200
+49,DARKA,Tu,230,,Victory - Trainer,,Female,230
+50,ADAM2,Entrenador,220,,VictoriaAdam,,Male,220
+51,ASTAROTH,Adamelej,200,,Victory - Trainer,,Male,190
+52,ADAM3,Catástrofe Primigenia,220,,VictoriaAdam,,Male,220
+53,JOVENFAS,Joven,65,,Victory - Trainer,,Male,65
+54,JOVENCITAFAS,Joven,65,,Victory - Trainer,,Female,65
+55,MERCADER,Mercader,70,,Victory - Trainer,,Male,70
+56,BANDOLERO,Bandolero,80,,Victory - Trainer,,Male,70
+57,BANDOLERA,Bandolera,80,,Victory - Trainer,,Female,70
+58,KARATEKA,Karateka,70,,Victory - Trainer,,Male,70
+59,LUCHADORA,Luchadora,70,,Victory - Trainer,,Female,70
+60,VIAJERO,Viajero,85,,Victory - Trainer,,Male,85
+61,ESQUIADORA,Esquiadora,85,,Victory - Trainer,,Female,85
+62,CIENTIFICO,Científico,90,,Victory - Trainer,,Male,90
+63,MILITAR,Militar,90,,Victory - Trainer,,Male,90
+64,ANOMALIA,Anomalía,115,,,,Male,115
+65,SANA,Princesa del Vacío,200,VsSana,Victory - Trainer,,Female,200
+66,AL,Errante,220,,Victory - Trainer,,Male,220
+67,DIRECTOR,El,150,VsDirector,,,Male,220
+68,DIMITRI,Ingeniero,150,,Victory - Trainer,,Male,220
+69,AL,Errante,220,,Victory - Trainer,,Male,220
+70,ALASTOR,Adamelej,220,,Victory - Trainer,,Male,220
+71,JOVANI,Capo,220,,,,Male,220
+72,SANDROREY,Vidente,220,,Victory - Trainer,,Male,220
+73,SANA2,Princesa del Vacío,200,VsSana,Victory - Trainer,,Female,200
+74,DIANA2,Científica,150,VsCompa,Victory - Trainer,,Female,150
+75,ANOMALIAS,Anomalías,115,,,,Male,115
+76,LUKYAN,Investigador Jefe,220,,Victory - Trainer,,Male,220
+77,SOMBRA,Sombra,115,,,,Male,215
+78,AZAZEL,Adamelej,220,,Victory - Trainer,,Male,220
+79,NET,,180,,Victory - Trainer,,Female,180
+80,TRAZEEH,Alto Mando,230,,Victory - Trainer,,Male,230
+81,MANOLITO,Alto Mando,230,,Victory - Trainer,,Male,230
+82,MELLAS,Alto Mando,230,,Victory - Trainer,,Male,230
+83,TARTARIA,Alto Mando,230,,Victory - Trainer,,Male,230
+84,AZELF,Estatua,200,,Victory - Trainer,,Male,200
+85,MATERIA,Materia,180,,Victory - Trainer,,Male,200
+86,YUKO,Campeona,255,,Victory - Trainer,,Male,255
+87,SAMEMARU,Apostador,200,,Victory - Trainer,,Male,200
+88,KALEB,Tífer,200,,Victory - Trainer,,Male,200
+89,KAZ2,Entrenador,220,,VictoriaAdam,,Male,220
+90,ILUSIONES,Ilusiones,220,,Victory - Trainer,,Male,220
+91,ILUSION,Ilusión,220,,Victory - Trainer,,Male,220
+92,ELOHIM,Gran Creador,255,,Victory - Trainer,,Male,255
+93,NET2,Acompañante,220,,,,Male,220
+94,KAZ3,Entrenador,220,,VictoriaAdam,,Male,220

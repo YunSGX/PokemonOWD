@@ -1,0 +1,88 @@
+﻿PBSEditor V.1.1.1 - 03/08/2021
+
+------ ERRORES ------
+
+Reporter: Popegade29
+Movimientos
+	* En los objetivos de movimiento no se puede indicar otro que no sea Un Pokémon (error ya corregido pero que ha vuelto)
+	* El texto de "Todos los enemigos" está mal escrito y pone "Todos los nemigos"
+
+Reporter: Vaz (Pokémon Génesis)
+Pokémon -> Evoluciones
+	* La evolución Crits (Farfetch'd -> Sirfetch'd) no está controlada. Se guarda como Level sin valor y da error
+
+PBSEditor V.1.1 - 03/08/2021
+
+------ MEJORAS ------
+
+Panel de Inicio
+	* Muestra la ruta de los PBS cargados. Clickando en la ruta de los PBS, se abre la carpeta en el explorador
+	* Nuevo fondo por cortesía de P4BL0 @pabl0_jp26
+
+Reporter: Pablus
+Actualiza las vistas de los combates
+	* Panel de Pokémon -> Pestaña Combate: Muestra el interfaz de combate con los gráficos del juego y fondos aleatorios
+	* Metadatos -> Ventana de selección de fondo de combate: Muestra una vista completa del interfaz de combate usando los gráficos del juego
+	
+Panel de Pokémon y ventana para importar estadísticas.
+	* Marca con colores el valor de las estadísticas base de un Pokémon de forma similar a como lo hacen las wikis
+Panel de Pokémon -> Pestaña Pokédex (V.1)
+	* Muestra las formas regionales en las evoluciones (pero no las formas del pokémon base)
+
+Panel de Regiones
+	* Al seleccionar mas de un punto de región, en el mapa se pintan todos esos puntos con un rectángulo rojo
+
+Panel de Encuentros -> Pestaña Mapas
+	* Al seleccionar mas de una zona, se listan los pokémon que aparecen de todas ellas, mostrando el rango de niveles mínimo y máximo
+	* En la ventana de selección de mapa se ha añadido un combo para filtrar los mapas por región
+Panel de Encuentros -> Pestaña Pokémon 
+	* Interfaz modificado para mostrar la región de los mapas y ver el mapa de región centrado
+	* Al seleccionar mas de un mapa, se marcan todas en el mapa y se listan todas las zonas juntas.
+
+------ ERRORES ------
+
+Pokémon -> Ventana de edición de evoluciónes
+	* Evolución por intercambio con objeto no selecciona bien el objeto
+	* Evolución por belleza no se actualiza el grado de belleza
+	* Al añadir una evolución, actualizar la dase de datos para poder cargar las evos de los pokémon afectados
+
+Reporter: Zettai (Pokémon Anamecer)
+Pokémon
+	* Al modificar a NIDORANfE o a NIDORANmA el campo clave convierte la f y la m minúsculas en mayúsculas y se pierden las referencias a los Pokémon
+		** Se han marcado internamente para solventar el error y permitir que el campo Clave de Pokémon pueda mantenerse en mayúsculas por defecto
+Entrenadores
+	* No se pueden cambiar los audios a los entrenadores
+
+Reporter: Gauna
+Pokémon -> Edición de habilidades
+	* Si no hay ningúna habilidad seleccionada en la ventana de edición de Habilidades, da un error al pulsar las flechas para añadir habiliad
+	
+Reporter: Pokémon Last Dream
+Encuentros
+	* No se guardan los niveles en los encuentros salvajes si editan diréctamente desde la tabla
+	
+Reporter: Pokémon Bifröst
+Movimientos
+	* No se puede borrar movimientos
+	
+Reporter: Davenn (Pokémon Siris)
+Dependencias del PBSEditor
+	* Si no se extrae del comprimido la carpeta PBSEditor y se coloca junto al programa, da error al cambiar la función de un movimiento
+	
+Reporter: Scept (Pokémon Armonía)
+Pokédex
+	* El panel Pokédex no inserta espacios en blanco en la posición indicada, siempre lo hace al final
+	
+Reporter: Deims (Pokémon Hope & Illusion)
+Error de lectura
+	* Dependiendo del idioma y/o configuración del pc, al leer números decimales desde los ficheros se omitían los caracteres de separación decimal,
+		haciendo que un 1.7 se lea como 17. Al guardar se hace como 17.0, por lo que al leer de nuevo pasa a ser 170, etc.
+	
+Reporter: Pokémon Visiones Etéreas
+Pokémon -> Evoluciones
+	* Las evoluciones por felicidad las guarda bien en fichero pero no las lee correctamente
+	
+------ CAMBIOS MENORES ------
+
+Panel de Pokémon
+	* Al editar un Pokémon, la ventana de edición tiene seleccionada por defecto la misma pestaña que el panel del listado base

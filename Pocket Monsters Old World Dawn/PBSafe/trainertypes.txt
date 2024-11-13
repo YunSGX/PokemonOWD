@@ -1,0 +1,16 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+0,POKEMONTRAINER_Red,Entrenadora,60,,,,Female,,
+1,NAYA,,160,,,,Female,,
+2,ALCHIKITO,Al,150,,,,Male,,
+3,TANTALUS,Extraño,150,,,,Male,,
+4,BAEL,Excéntrico,150,,,,Male,,
+5,JOVEN,Joven,35,,,,Male,,
+6,JOVENCITA,Jovencita,35,,,,Female,,
+7,TRUHAN,Thuhán,55,,,,Male,,
+8,CAZABICHOS,Cazabichos,45,,,,Male,,
+9,EXPLORADORA,Exploradora,45,,,,Female,,
+
+
+
+
+

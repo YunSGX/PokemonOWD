@@ -1,0 +1,64 @@
+TM02 Garra Dragón
+TM05 Rugido
+TM06 Tóxico
+TM07 Granizo
+TM08 Corpulencia
+TM10 Poder Oculto
+TM11 Dia Soleado
+TM12 Carga Pétrea
+TM13 Rayo Hielo
+TM14 Ventisca
+TM18 Danza Lluvia
+TM19 Tajo Corrosivo
+TM22 Rayo Solar
+TM24 Rayo
+TM25 Trueno
+TM26 Terremotísimo
+TM27 Retribución
+TM28 Excavar
+TM29 Psíquico
+TM30 Bola Sombra
+TM31 Demolición
+TM32 Metamorfosis
+TM34 Onda Tóxica
+TM35 Lanzallamas
+TM37 Tormenta Arena
+TM38 Llamarada
+TM39 Tumba Rocas
+TM40 Golpe Aéreo
+TM42 Imagen
+TM44 Descanso
+TM46 Ladrón
+TM47 Puntapie
+TM48 Canon
+TM50 Sofoco
+TM51 Cabezazo Zen
+TM52 Onda Certera
+TM53 Energibola
+TM54 Falsotortazo
+TM55 Escaldar
+TM57 Rayo Carga
+TM59 Calcinación
+TM60 Gigadrenado
+TM61 Fuego fatuo
+TM62 Acróbata
+TM64 Explosión
+TM67 Represalia
+TM69 Pulimento
+TM70 Destello
+TM71 Roca Afilada
+TM72 Voltiocambio
+TM73 Onda Trueno
+TM75 Danza Espada
+TM77 Avalancha
+TM78 Terratemblor
+TM68 Giga Impacto
+TM81 Tijera X
+TM82 Cola Dragón
+TM83 Avivar
+TM84 Puya Nociva
+TM86 Hierba Lazo
+TM89 Ida y Vuelta
+TM91 Foco Resplandor
+TM92 Espacio Raro
+TM93 Voltio Cruel

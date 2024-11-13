@@ -1,0 +1,2123 @@
+﻿[000]
+BicycleBGM=Airship.mid
+TrainerBattleBGM=TrainerBattle
+Home=3,7,5,8
+WildBattleBGM=Wild
+PlayerB=NAYA,trchar001,girl_bike,girl_surf_offset,girl_run,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
+PlayerA=POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf_offset,boy_run,boy_dive_offset,boy_fish_offset,boy_fishsurf_offset
+[001]
+# Intro
+[002]
+# Ciudad de Celestia
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[003]
+# Celestia - Exterior
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[004]
+# Obelisco Hades
+BattleBack=Field
+SnapEdges=true
+Outdoor=true
+[005]
+# Celestia - Exterior
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[006]
+# Casa de \PN
+[007]
+# Casa de \PN
+[008]
+# Casa de \PN
+[009]
+# Obelisco Hades
+SnapEdges=true
+[010]
+# Ciudad de Celestia
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[011]
+# Ciudad de Celestia
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[012]
+# Ciudad de Celestia
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[013]
+# Academia
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[014]
+# Academia
+BattleBack=Torre
+SnapEdges=true
+[015]
+# Ciudad de Celestia
+[016]
+# Red de Qlifot
+BattleBack=Qlifot
+SnapEdges=true
+[017]
+# Academia - PB
+[018]
+# Academia . Aulas
+[019]
+# Academia - Biblioteca
+[020]
+# Academia - Pasillo
+[021]
+# Academia - P1
+[022]
+# Academia - Aulas
+[023]
+# Academia - Sala Reuniones
+[024]
+# Academia - Cafetería
+[025]
+# Academia - P2
+BattleBack=Qlifot
+[026]
+# Academia - Aulas
+[027]
+# Academia - Aulas
+[028]
+# Sótano
+SnapEdges=true
+[029]
+# Sótano
+SnapEdges=true
+[030]
+# Red de Qlifot
+SnapEdges=true
+ShowArea=true
+[031]
+# Patio
+BattleBack=Field
+SnapEdges=true
+Outdoor=true
+[032]
+# Clínica
+[033]
+# Casa
+[034]
+# Taberna
+[035]
+# Casa
+[036]
+# Posada
+[037]
+# Casa
+[038]
+# Orfebrería
+[039]
+# Ruta Agrícola
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[040]
+# Villa Celeste
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[041]
+# Casa
+[042]
+# Clínica
+[043]
+# Orfanato
+[044]
+# Orfanato
+[045]
+# Habitaciones
+[046]
+# Santuario de la Otredad
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[047]
+# Santuario de la Otredad
+[048]
+# Santuario de la Otredad
+[049]
+# Santuario de la Otredad
+[050]
+# Santuario de la Otredad
+[051]
+# Santuario de la Otredad
+[052]
+# Vista Pléyade
+[053]
+# Vista RayLah
+[054]
+# Vista Arcadia
+[055]
+# Ruta Agrícola
+[056]
+# Puente de Celestia
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[057]
+# Castillo de Celestia
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[058]
+# Vestíbulo
+SnapEdges=true
+[059]
+# Pasillo Este
+[060]
+# Pasillo Oeste
+[061]
+# Habitaciones
+[062]
+# Biblioteca
+[063]
+# Comedor
+[064]
+# Camino Oratorio
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[065]
+# Camino Oratorio
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[066]
+# Camino Oratorio
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[067]
+# Colina Hades
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[068]
+# Camino Oratorio
+BattleBack=Field
+SnapEdges=true
+[069]
+# Obelisco Hades P0
+[070]
+# Obelisco Hades P-1
+[071]
+# Obelisco Hades P-2
+[072]
+# Obelisco Hades Profundidad
+[073]
+# Arboleda Celeste
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[074]
+# Baja Celestia
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[075]
+# Clínica
+[076]
+# Casa
+[077]
+# Orfebrería
+[078]
+# Taberna
+[079]
+# Arboleda Celeste
+[080]
+# Guarida Acechadores
+BattleBack=Guarida
+[081]
+# Guarida Acechadores
+BattleBack=Guarida
+[082]
+# Patio
+SnapEdges=true
+Outdoor=true
+[083]
+# Monte Penitencia
+BattleBack=Monte
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[084]
+# Monte Penitencia
+BattleBack=Monte
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[085]
+# Monte Penitencia
+BattleBack=Nieve
+SnapEdges=true
+ShowArea=true
+[086]
+# Monte Penitencia
+BattleBack=Nieve
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[087]
+# Monte Penitencia
+BattleBack=Nieve
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[088]
+# Prisión de Celestia
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[089]
+# Vestíbulo
+[090]
+# Pabellón A
+[091]
+# Comedor
+[092]
+# Pasillo Sur
+[093]
+# Patio Sur
+SnapEdges=true
+[094]
+# Biblioteca
+[095]
+# Enfermería
+[096]
+# Almacén
+[097]
+# Pabellón B
+[098]
+# Escaleras
+[099]
+# Sala de generadores
+BattleBack=Astaroth
+[100]
+# Cosos Debug
+BattleBack=Astaroth
+[101]
+# Gimnasio
+BattleBack=Cueva
+[102]
+# Casino
+BattleBack=Guarida
+[103]
+# Casino
+[104]
+# Casino
+BattleBack=Guarida
+[105]
+# Mina Oricalco
+BattleBack=Cueva
+SnapEdges=true
+ShowArea=true
+[106]
+# Mina Oricalco
+BattleBack=Cueva
+SnapEdges=true
+[107]
+# Mina Oricalco
+BattleBack=Cueva
+SnapEdges=true
+[108]
+# Ruinas Academia
+ShowArea=true
+[109]
+# Ruinas Academia
+[110]
+# Ruinas Academia
+BattleBack=Ruinas
+[111]
+# Ruinas Academia
+[112]
+# Ruinas Academia
+[113]
+# Ruinas Academia
+[114]
+# Ruinas Academia
+BattleBack=Ruinas
+SnapEdges=true
+[115]
+# Ciudad de Celestia
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[116]
+# Red de Qlifot
+SnapEdges=true
+ShowArea=true
+[117]
+# Kazmon SA
+BattleBack=Adm
+SnapEdges=true
+ShowArea=true
+[118]
+# Kazmon SA PB
+[119]
+# Kazmon SA P10
+[120]
+# Kazmon SA P10
+[121]
+# Foso
+BattleBack=Sede
+[122]
+# Kazmon SA P75
+[123]
+# Kazmon SA P20
+[124]
+# Kazmon SA P20
+BattleBack=Sede
+[125]
+# Kazmon SA P20
+[126]
+# Kazmon SA P25
+[127]
+# Kazmon SA P25
+BattleBack=Sede
+[128]
+# Kazmon SA P40
+[129]
+# Kazmon SA P55
+[130]
+# Kazmon SA P55
+BattleBack=Sede
+[131]
+# Kazmon SA P75
+[132]
+# Kazmon SA P90
+[133]
+# Kazmon SA P90
+[134]
+# Kazmon SA P90
+[135]
+# Kazmon SA P99
+[136]
+# Kazmon SA Despacho
+[137]
+# Sala de generadores
+[138]
+# Kazmon SA Despacho
+BattleBack=Despacho
+[139]
+# Kazmon SA Despacho
+[140]
+# Kazmon SA Despacho
+[141]
+# Recreativos
+BattleBack=Holo
+[142]
+# Frontera de Qlifot
+SnapEdges=true
+ShowArea=true
+[143]
+# Via Crucis
+BattleBack=Adm
+SnapEdges=true
+[144]
+# Via Crucis
+SnapEdges=true
+[145]
+# Afueras de Decken
+SnapEdges=true
+Outdoor=true
+[146]
+# Sala Astaroth
+BattleBack=Astaroth
+[147]
+# Sala Spec
+BattleBack=Holo
+[148]
+# Sala Adam
+BattleBack=Adm
+[149]
+# Frontera de Qlifot
+SnapEdges=true
+ShowArea=true
+[150]
+# ---ACTO I---
+[151]
+# ---ACTO II---
+[152]
+# Decken
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[153]
+# Desfiladero Pléyade
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[154]
+# Desfiladero Pléyade
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[155]
+# Desfiladero Pléyade
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[156]
+# Desfiladero Pléyade
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[157]
+# Clínica
+[158]
+# Casa
+[159]
+# Rancho Arias
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[160]
+# Rancho Arias
+[161]
+# Rancho Arias
+[162]
+# Coliseo Colosal
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[163]
+# Coliseo Colosal
+ShowArea=true
+[164]
+# Coliseo Colosal
+BattleBack=Coliseo
+SnapEdges=true
+Outdoor=true
+[165]
+# Coliseo Colosal
+[166]
+# Celda de Contención
+[167]
+# Pasillo Norte
+[168]
+# Patio Norte
+SnapEdges=true
+[169]
+# Sala de Descanso
+[170]
+# Sala de Interrogatorios
+[171]
+# Deficiens Silva
+BattleBack=Qlifot
+ShowArea=true
+[172]
+# Tenebris Profundis
+BattleBack=Qlifot
+SnapEdges=true
+ShowArea=true
+[173]
+# Tenebris Profundis
+SnapEdges=true
+ShowArea=true
+[174]
+# Via Crucis
+SnapEdges=true
+ShowArea=true
+[175]
+# Via Crucis
+BattleBack=Adm
+[176]
+# Antigua Prisión
+[177]
+# Antigua Prisión
+[178]
+# Antigua Prisión
+BattleBack=Cueva
+[179]
+# Vestíbulo
+[180]
+# Antigua Prisión
+BattleBack=Cueva
+[181]
+# Coliseo Colosal
+[182]
+# Sendero del Sol
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[183]
+# Sendero del Sol
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[184]
+# Sendero del Sol
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[185]
+# Sendero del Sol
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[186]
+# Sendero del Sol
+[187]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[188]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[189]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[190]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[191]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[192]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[193]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[194]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[195]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[196]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[197]
+# Bosque de Ylfordt
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[198]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[199]
+# Ylfordt Asedio
+[200]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[201]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[202]
+# Ylfordt
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[203]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[204]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[205]
+# Ylfordt
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[206]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[207]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[208]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[209]
+# Clínica
+[210]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[211]
+# Ylfordt
+BattleBack=Town
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[212]
+# Ylfordt
+BattleBack=Torre
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[213]
+# Orfebrería
+[214]
+# Casa
+[215]
+# Taberna
+[216]
+# Guardería
+[217]
+# Museo
+[218]
+# Almacén
+BattleBack=Granja
+[219]
+# Casa
+[220]
+# Clínica
+[221]
+# Museo
+[222]
+# Casa
+[223]
+# Castillo de Ylfordt
+BattleBack=Cristal
+ShowArea=true
+[224]
+# Castillo de Ylfordt
+BattleBack=Cristal
+[225]
+# Castillo de Ylfordt
+BattleBack=Cristal
+[226]
+# Castillo de Ylfordt
+BattleBack=Cristal
+[227]
+# Castillo de Yfordt
+BattleBack=Cristal
+[228]
+# Castillo de Ylfordt
+BattleBack=Cristal
+[229]
+# Castillo de Ylfordt
+BattleBack=Cristal
+[230]
+# Castillo de Ylfordt
+BattleBack=Cristal
+[231]
+# Castillo de Ylfordt
+BattleBack=Cristal
+[232]
+# Castillo de Ylfordt
+BattleBack=Cristal
+[233]
+# Castillo de Ylfordt
+BattleBack=Dispater
+[234]
+# Castillo de Ylfordt
+[235]
+# Castillo de Ylfordt
+[236]
+# Rancho Arias
+BattleBack=Granja
+[237]
+# Monte Pléyade
+BattleBack=Cueva
+SnapEdges=true
+ShowArea=true
+[238]
+# Claro Pléyade
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[239]
+# Monte Pléyade
+BattleBack=Monte
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[240]
+# Monte Pléyade
+BattleBack=Cueva
+SnapEdges=true
+ShowArea=true
+[241]
+# Monte Pléyade
+BattleBack=Nieve
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[242]
+# Monte Pléyade
+BattleBack=Nieve
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[243]
+# Cámara Helada
+BattleBack=Cueva
+SnapEdges=true
+[244]
+# Cámara Rocosa
+BattleBack=Cueva
+SnapEdges=true
+[245]
+# Cámara Férrea
+BattleBack=Cueva
+SnapEdges=true
+[246]
+# Casa de Ryo
+[247]
+# Galería Pléyade
+BattleBack=Mina
+SnapEdges=true
+ShowArea=true
+[248]
+# Galería Pléyade
+BattleBack=Mina
+SnapEdges=true
+[249]
+# Sendero del Sol
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[250]
+# Sendero del Sol
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[251]
+# Museo
+[252]
+# Museo
+[253]
+# Museo
+[254]
+# Coliseo Colosal
+[255]
+# Costa Fúnebre
+BattleBack=Raylah
+TrainerBattleBGM=TrainerRaylah.ogg
+SnapEdges=true
+ShowArea=true
+[256]
+# Costa Fúnebre
+BattleBack=Raylah
+TrainerBattleBGM=TrainerRaylah.ogg
+SnapEdges=true
+ShowArea=true
+[257]
+# WaterSins
+BattleBack=Raylah
+SnapEdges=true
+ShowArea=true
+[258]
+# Palacio Qlifot
+SnapEdges=true
+[259]
+# Palacio Qlifot
+SnapEdges=true
+ShowArea=true
+[260]
+# Palacio Qlifot
+[261]
+# Palacio Qlifot
+[262]
+# Coliseo Colosal
+BattleBack=Coliseo
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[263]
+# Costa Fúnebre
+BattleBack=Raylah
+TrainerBattleBGM=TrainerRaylah.ogg
+SnapEdges=true
+ShowArea=true
+[264]
+# Palacio Qlifot
+[265]
+# Palacio Qlifot
+[266]
+# Palacio Qlifot
+SnapEdges=true
+[267]
+# Mar Sideral
+[268]
+# Alta Mar
+SnapEdges=true
+Outdoor=true
+[269]
+# WaterSins
+BattleBack=Raylah
+SnapEdges=true
+ShowArea=true
+[270]
+# Senda Lunar
+BattleBack=Raylah
+TrainerBattleBGM=TrainerRaylah.ogg
+SnapEdges=true
+ShowArea=true
+[271]
+# Sanatorio WaterSins
+BattleBack=Raylah
+SnapEdges=true
+ShowArea=true
+[272]
+# Sanatorio de WaterSins
+ShowArea=true
+[273]
+# Sanatorio de WaterSins
+[274]
+# Sanatorio de WaterSins
+[275]
+# Sanatorio de WaterSins
+BattleBack=Sanatorio
+ShowArea=true
+[276]
+# Sanatorio de WaterSins
+[277]
+# Sanatorio de WaterSins
+ShowArea=true
+[278]
+# Bosque de WaterSins
+BattleBack=Bosque
+TrainerBattleBGM=TrainerRaylah.ogg
+SnapEdges=true
+ShowArea=true
+[279]
+# Bosque de WaterSins
+BattleBack=Bosque
+TrainerBattleBGM=TrainerRaylah.ogg
+SnapEdges=true
+ShowArea=true
+[280]
+# Bosque de WaterSins
+BattleBack=Bosque
+TrainerBattleBGM=TrainerRaylah.ogg
+SnapEdges=true
+ShowArea=true
+[281]
+# Camarote
+[282]
+# Ciudadela de Ray´Lah
+SnapEdges=true
+[283]
+# Aynmyaska
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[284]
+# Senda Lunar
+[285]
+# Teatro WaterSins
+[286]
+# Teatro WaterSins
+[287]
+# Teatro WaterSins
+BattleBack=Granja
+[288]
+# Teatro WaterSins
+[289]
+# Taberna
+[290]
+# Sanatorio de WaterSins
+BattleBack=Sanatorio
+ShowArea=true
+[291]
+# Alta Mar
+BattleBack=Cthulhu
+SnapEdges=true
+ShowArea=true
+[292]
+# Aynmyaska
+[293]
+# Aynmyaska
+[294]
+# Alta Mar
+BattleBack=Cthulhu
+SnapEdges=true
+ShowArea=true
+[295]
+# Alta Mar
+SnapEdges=true
+[296]
+# Aynmyaska
+SnapEdges=true
+Outdoor=true
+[297]
+# Alta Mar
+BattleBack=Cthulhu
+SnapEdges=true
+[298]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[299]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+[300]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+[301]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[302]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[303]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[304]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[305]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+[306]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+[307]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+[308]
+# Ciudadela de Ray´Lah
+SnapEdges=true
+[309]
+# Cámara Regia
+BattleBack=Cueva
+SnapEdges=true
+ShowArea=true
+[310]
+# Ciudadela de Ray`Lah
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[311]
+# Ciudadela de Ray´Lah
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[312]
+# Gran Archivo
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[313]
+# Gran Archivo
+BattleBack=Ciudadela
+TrainerBattleBGM=TrainerRaylah.ogg
+SnapEdges=true
+ShowArea=true
+[314]
+# Ciudadela de Ray`Lah
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[315]
+# Gran Archivo
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[316]
+# Último Distrito
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[317]
+# Último Distrito
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[318]
+# Último Distrito
+BattleBack=Ciudadela
+SnapEdges=true
+[319]
+# Último Distrito
+BattleBack=Ciudadela
+SnapEdges=true
+ShowArea=true
+[320]
+# Último Distrito
+BattleBack=Distrito
+SnapEdges=true
+ShowArea=true
+[321]
+# Palacio Qlifot
+SnapEdges=true
+ShowArea=true
+[322]
+# Arenas Estivales
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[323]
+# Arenas Estivales
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[324]
+# Arenas Estivales
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[325]
+# Nazal
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[326]
+# Nazal
+[327]
+# Orfebrería
+[328]
+# ---ACTO III---
+[329]
+# Dunas Ardientes
+BattleBack=Desierto
+SnapEdges=true
+Weather=Sandstorm,100
+ShowArea=true
+Outdoor=true
+[330]
+# Dunas Ardientes
+BattleBack=Desierto
+SnapEdges=true
+Weather=Sandstorm,100
+ShowArea=true
+Outdoor=true
+[331]
+# Dunas Ardientes
+BattleBack=Desierto
+SnapEdges=true
+Weather=Sandstorm,100
+ShowArea=true
+Outdoor=true
+[332]
+# Dunas Ardientes
+BattleBack=Desierto
+SnapEdges=true
+Weather=Sandstorm,50
+ShowArea=true
+Outdoor=true
+[333]
+# Guarida de Flint
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[334]
+# Guarida de Flint
+[335]
+# Guarida de Flint
+[336]
+# Consciencia del Vacío
+SnapEdges=true
+ShowArea=true
+[337]
+# Consciencia del Vacío
+SnapEdges=true
+[338]
+# Consciencia del Vacío
+SnapEdges=true
+[339]
+# Consciencia del Vacío
+SnapEdges=true
+[340]
+# Ruta Oasis
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[341]
+# Ruta Oasis
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[342]
+# Red de Qlifot
+SnapEdges=true
+[343]
+# Palacio Qlifot
+SnapEdges=true
+[344]
+# Ruta Oasis
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[345]
+# Aldea Tarigi
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+[346]
+# Fassad
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[347]
+# Fassad
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[348]
+# Fassad
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[349]
+# Fassad
+[350]
+# Orfebrería
+[351]
+# Casino
+[352]
+# Casino
+BattleBack=Sede
+[353]
+# Almacén
+[354]
+# Fassad
+[355]
+# Taberna
+[356]
+# Fassad
+[357]
+# Aldea Tarigi
+BattleBack=Desierto
+SnapEdges=true
+[358]
+# Cumbre del Sol
+BattleBack=Cumbre
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[359]
+# Cumbre del Sol - Túneles
+BattleBack=Cueva
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[360]
+# Cumbre del Sol
+BattleBack=Cumbre
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[361]
+# Cumbre del Sol
+BattleBack=Cumbre
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[362]
+# Cumbre del Sol - Túneles
+BattleBack=Cueva
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[363]
+# Cumbre del Sol
+BattleBack=Cumbre
+SnapEdges=true
+Outdoor=true
+[364]
+# Cumbre del Sol
+BattleBack=Cumbre
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[365]
+# Cumbre del Sol
+BattleBack=CumbreFinal
+SnapEdges=true
+ShowArea=true
+[366]
+# Consciencia del Vacío
+SnapEdges=true
+[367]
+# Consciencia del Vacío
+SnapEdges=true
+ShowArea=true
+[368]
+# Consciencia del Vacío
+SnapEdges=true
+[369]
+# Consciencia del Vacío
+SnapEdges=true
+[370]
+# Consciencia del Vacío
+SnapEdges=true
+[371]
+# Consciencia del Vacío
+SnapEdges=true
+[372]
+# Cumbre del Sol
+BattleBack=Cumbre
+SnapEdges=true
+ShowArea=true
+[373]
+# Paso Fronterizo
+SnapEdges=true
+ShowArea=true
+[374]
+# Flashback
+[375]
+# Habitación
+[376]
+# Jardines
+SnapEdges=true
+[377]
+# Laboratorios
+BattleBack=Lab
+[378]
+# Sala de Pruebas
+[379]
+# Sala de Investigación
+[380]
+# Sala de Reuniones
+[381]
+# Espacio en Blanco
+SnapEdges=true
+[382]
+# Paso Fronterizo
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[383]
+# Paso Fronterizo
+BattleBack=Monte
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[384]
+# Paso Fronterizo
+BattleBack=Nieve
+TrainerBattleBGM=TrainerLedzemli.ogg
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[385]
+# Eldor
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[386]
+# Orfebrería
+[387]
+# Clínica
+[388]
+# Eldor
+[389]
+# Cañón Oráculo
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[390]
+# Cañón Oráculo
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[391]
+# Cañón Oráculo
+BattleBack=Desierto
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[392]
+# Tren - Vagón 7
+[393]
+# Tren - Vagón 8
+[394]
+# Tren - Vagón 6
+BattleBack=Cuartel
+[395]
+# Tren - Vagón 5
+[396]
+# Exterior
+BattleBack=Tren
+SnapEdges=true
+Outdoor=true
+[397]
+# Exterior Backup
+[398]
+# Afueras Aynmyaska
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[399]
+# Aynmyaska
+SnapEdges=true
+Weather=Snow,100
+ShowArea=true
+Outdoor=true
+[400]
+# Aynmyaska
+[401]
+# Aynmyaska
+BattleBack=Cuartel
+[402]
+# Aynmyaska
+[403]
+# Clínica
+[404]
+# Aynmyaska
+[405]
+# Cantera Galvánica
+BattleBack=Nieve
+TrainerBattleBGM=TrainerLedzemli.ogg
+SnapEdges=true
+Weather=Snow,100
+ShowArea=true
+Outdoor=true
+[406]
+# Cantera Galvánica
+BattleBack=Nieve
+SnapEdges=true
+Weather=Snow,100
+ShowArea=true
+Outdoor=true
+[407]
+# Cantera Galvánica
+BattleBack=Nieve
+TrainerBattleBGM=TrainerLedzemli.ogg
+SnapEdges=true
+Weather=Snow,100
+ShowArea=true
+Outdoor=true
+[408]
+# Cantera Galvánica
+[409]
+# Cantera Galvánica
+BattleBack=Cueva
+SnapEdges=true
+[410]
+# Refugio Boreal
+BattleBack=Nieve
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[411]
+# Refugio Boreal
+[412]
+# Valle Boreal
+BattleBack=Nieve
+TrainerBattleBGM=TrainerLedzemli.ogg
+SnapEdges=true
+Weather=Blizzard,100
+ShowArea=true
+Outdoor=true
+[413]
+# Valle Boreal
+BattleBack=Nieve
+SnapEdges=true
+Weather=Blizzard,100
+ShowArea=true
+Outdoor=true
+[414]
+# Valle Boreal
+BattleBack=Nieve
+SnapEdges=true
+Weather=Blizzard,100
+ShowArea=true
+Outdoor=true
+[415]
+# Antigua Ledzemli
+BattleBack=Antigua
+TrainerBattleBGM=TrainerLedzemli.ogg
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[416]
+# Antigua Ledzemli
+BattleBack=Antigua
+TrainerBattleBGM=TrainerLedzemli.ogg
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[417]
+# Antigua Ledzemli
+BattleBack=Cuartel
+[418]
+# Antigua Ledzemli
+BattleBack=Cuartel
+[419]
+# Antigua Ledzemli
+BattleBack=Cuartel
+[420]
+# Glaciar Boreal Prueba
+SnapEdges=true
+[421]
+# Glaciar Boreal
+BattleBack=Glaciar
+TrainerBattleBGM=TrainerLedzemli.ogg
+SnapEdges=true
+ShowArea=true
+[422]
+# Glaciar Boreal
+BattleBack=Glaciar
+TrainerBattleBGM=TrainerLedzemli.ogg
+SnapEdges=true
+ShowArea=true
+[423]
+# Glaciar Boreal
+BattleBack=Glaciar
+SnapEdges=true
+ShowArea=true
+[424]
+# Intro
+[425]
+# Laboratorios Celestia
+[426]
+# Laboratorios Celestia
+[427]
+# Laboratorios Celestia
+[428]
+# Laboratorios Celestia
+[429]
+# Laboratorios Celestia
+[430]
+# Laboratorios Celestia
+[431]
+# Laboratorios Celestia
+SnapEdges=true
+[432]
+# Laboratorios Celestia
+SnapEdges=true
+[433]
+# Laboratorios Celestia
+BattleBack=Ruinas
+SafariMap=true
+[434]
+# Laboratorios Celestia
+BattleBack=Lab
+SnapEdges=true
+[435]
+# Taller
+BattleBack=Cuartel
+TrainerBattleBGM=TrainerLedzemli.ogg
+[436]
+# Casa de Sana
+[437]
+# Casa de Sana
+[438]
+# Casa de Sana
+BattleBack=Granja
+[439]
+# Escenas Nada
+[440]
+# Afueras Aynmyaska
+SnapEdges=true
+[441]
+# Baja Celestia
+SnapEdges=true
+[442]
+# Ylfordt
+SnapEdges=true
+[443]
+# Senda Lunar
+SnapEdges=true
+[444]
+# Aldea Tarigi
+SnapEdges=true
+[445]
+# Espacio
+SnapEdges=true
+[446]
+# Casa
+SnapEdges=true
+[447]
+# Desfiladero Pléyade
+BattleBack=Field
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[448]
+# Desfiladero Pléyade
+SnapEdges=true
+Outdoor=true
+[449]
+# Asteroide Paleta
+BattleBack=Nada
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+WildBattleBGM=SalvajeNada.ogg
+[450]
+# Asteroide Paleta
+BattleBack=Nada
+SnapEdges=true
+ShowArea=true
+[451]
+# Asteroide Paleta
+BattleBack=Nada
+SnapEdges=true
+ShowArea=true
+[452]
+# Asteroide Paleta
+BattleBack=Nada
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+WildBattleBGM=SalvajeNada.ogg
+[453]
+# Asteroide Paleta
+BattleBack=Nada
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+WildBattleBGM=SalvajeNada.ogg
+[454]
+# Casa
+[455]
+# Laboratorio
+[456]
+# Selva Decadente
+BattleBack=Nada
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+WildBattleBGM=SalvajeNada.ogg
+[457]
+# Selva Decadente
+BattleBack=Nada
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+WildBattleBGM=SalvajeNada.ogg
+[458]
+# Selva Decadente
+BattleBack=AstarothNada
+SnapEdges=true
+ShowArea=true
+[459]
+# Selva Decadente
+BattleBack=Nada
+SnapEdges=true
+ShowArea=true
+[460]
+# Páramo Paradoja
+BattleBack=Hominem
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+WildBattleBGM=SalvajeNada.ogg
+[461]
+# Páramo Paradoja
+BattleBack=Hominem
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+WildBattleBGM=SalvajeNada.ogg
+[462]
+# Páramo Paradoja
+BattleBack=Dispater2
+SnapEdges=true
+ShowArea=true
+[463]
+# Límite del Horizonte
+SnapEdges=true
+ShowArea=true
+[464]
+# Escena
+SnapEdges=true
+[465]
+# Escena
+SnapEdges=true
+[466]
+# Obelisco Hades P0
+[467]
+# Obelisco Hades P1
+[468]
+# Obelisco Hades P2
+[469]
+# Obelisco Hades P3
+[470]
+# Obelisco Hades P4
+[471]
+# Obelisco Hades P5
+[472]
+# Obelisco Hades P6
+[473]
+# Obelisco Hades P7
+[474]
+# Obelisco Hades P8
+[475]
+# Obelisco Hades P9
+[476]
+# Obelisco Hades P10
+[477]
+# Obelisco Hades P11
+[478]
+# Obelisco Hades Cúspide
+BattleBack=Alastor
+SnapEdges=true
+ShowArea=true
+[479]
+# Límite del Horizonte
+SnapEdges=true
+[480]
+# Capital Hueca
+BattleBack=Capital
+SnapEdges=true
+Weather=Rain,100
+ShowArea=true
+WildBattleBGM=TrainerNada.ogg
+[481]
+# Capital Hueca
+BattleBack=Capital
+SnapEdges=true
+WildBattleBGM=TrainerNada.ogg
+[482]
+# Capital Hueca
+BattleBack=Capital
+SnapEdges=true
+Weather=Storm,100
+WildBattleBGM=TrainerNada.ogg
+[483]
+# Capital Hueca
+BattleBack=Tarigi
+SnapEdges=true
+Weather=Storm,100
+ShowArea=true
+[484]
+# Debug2
+BattleBack=Tarigi
+[485]
+# Capital Hueca
+BattleBack=Capital
+SnapEdges=true
+Weather=Storm,100
+[486]
+# Capital Hueca
+SnapEdges=true
+[487]
+# Avatar del Vacío
+BattleBack=Primogenito
+SnapEdges=true
+[488]
+# Capital Hueca
+SnapEdges=true
+[489]
+# Debug3
+BattleBack=Alastor
+[490]
+# Obelisco Hades Cúspide
+[491]
+# Capital Hueca
+SnapEdges=true
+[492]
+# Capital Hueca
+BattleBack=Galaxia
+SnapEdges=true
+[493]
+# Glaciar Boreal
+SnapEdges=true
+ShowArea=true
+[494]
+# Orfanato
+[495]
+# Castillo de Celestia
+SnapEdges=true
+Weather=Rain,100
+Outdoor=true
+[496]
+# Castillo de Celestia
+SnapEdges=true
+Weather=Rain,100
+Outdoor=true
+[497]
+# Orfanato
+[498]
+# Castillo de Celestia
+SnapEdges=true
+Weather=Rain,100
+Outdoor=true
+[499]
+# Círculo de Lujuria
+BattleBack=Lujuria
+SnapEdges=true
+ShowArea=true
+Outdoor=false
+[500]
+# Kazmon SA Despacho
+[501]
+# Santuario de la Otredad
+BattleBack=Ruinas
+[502]
+# Mundo Distorsión
+BattleBack=Nada
+SnapEdges=true
+[503]
+# Obelisco Hades P7
+[504]
+# Kazmon SA Despacho
+[505]
+# Palacio Qlifot
+[506]
+# Palacio Qlifot
+[507]
+# Palacio Qlifot
+[508]
+# Palacio Qlifot
+[509]
+# Qlifot
+BattleBack=Qlifot2
+SnapEdges=true
+ShowArea=true
+[510]
+# Qlifot
+BattleBack=Qlifot2
+SnapEdges=true
+ShowArea=true
+[511]
+# Qlifot
+BattleBack=Qlifot2
+SnapEdges=true
+ShowArea=true
+[512]
+# Qlifot
+BattleBack=Playa
+SnapEdges=true
+ShowArea=true
+[513]
+# Kazmon SA P90
+[514]
+# Liga Pokémon
+SnapEdges=true
+ShowArea=true
+[515]
+# Liga Pokémon
+BattleBack=Liga1
+SnapEdges=true
+[516]
+# Liga Pokémon
+SnapEdges=true
+ShowArea=true
+[517]
+# Liga Pokémon
+BattleBack=Liga2
+SnapEdges=true
+[518]
+# Liga Pokémon
+SnapEdges=true
+[519]
+# Liga Pokémon
+BattleBack=Liga3
+SnapEdges=true
+[520]
+# Liga Pokémon
+SnapEdges=true
+[521]
+# Liga Pokémon
+BattleBack=Liga4
+SnapEdges=true
+[522]
+# Liga Pokémon
+SnapEdges=true
+[523]
+# Liga Pokémon
+BattleBack=Liga5
+SnapEdges=true
+[529]
+# Círculo de Traición
+SnapEdges=true
+ShowArea=true
+[530]
+# Círculo de Traición
+BattleBack=Glaciar
+SnapEdges=true
+ShowArea=true
+[534]
+# Círculo del Fraude
+[535]
+# Círculo del Fraude
+SnapEdges=true
+ShowArea=true
+[536]
+# Círculo del Fraude
+BattleBack=Cuartel
+SnapEdges=true
+ShowArea=true
+[537]
+# Campo del Silencio Inmaculado
+BattleBack=Silencio
+SnapEdges=true
+ShowArea=true
+[538]
+# Círculo de Violencia
+SnapEdges=true
+ShowArea=true
+[539]
+# Círculo de Violencia
+BattleBack=Bosque
+SnapEdges=true
+ShowArea=true
+[540]
+# Círculo de Herejía
+SnapEdges=true
+ShowArea=true
+[542]
+# Círculo de Herejía
+BattleBack=Ruinas
+ShowArea=true
+[543]
+# Círculo de Pereza
+SnapEdges=true
+ShowArea=true
+[544]
+# Círculo de Pereza
+SnapEdges=true
+ShowArea=true
+[545]
+# Círculo de Codicia
+BattleBack=Mina
+SnapEdges=true
+ShowArea=true
+[546]
+# Círculo de Codicia
+BattleBack=Mina
+SnapEdges=true
+ShowArea=true
+[547]
+# Círculo de Gula
+BattleBack=Nieve
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+Outdoor=false
+[548]
+# Círculo de Gula
+BattleBack=Nieve
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+[550]
+# Círculo de Lujuria
+BattleBack=Lujuria
+SnapEdges=true
+ShowArea=true
+[551]
+# Limbo
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[552]
+# Limbo
+SnapEdges=true
+ShowArea=true
+Outdoor=true
+[553]
+# Torre de Babel PB
+BattleBack=Babel
+TrainerBattleBGM=TrainerNada.ogg
+ShowArea=true
+[554]
+# Jardines del Edén
+SnapEdges=true
+ShowArea=true
+[555]
+# Torre de Babel P1
+BattleBack=Babel
+TrainerBattleBGM=TrainerNada.ogg
+ShowArea=true
+[556]
+# Torre de Babel P2
+BattleBack=Babel
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+[557]
+# Torre de Babel P3
+BattleBack=Babel
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+[558]
+# Torre de Babel P4
+BattleBack=Babel
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+[559]
+# Torre de Babel P5
+BattleBack=Babel
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+[560]
+# Torre de Babel P6
+BattleBack=Babel
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+[561]
+# Torre de Babel P7
+BattleBack=Babel
+SnapEdges=true
+[562]
+# Jardines del Edén
+BattleBack=Eden
+TrainerBattleBGM=TrainerNada.ogg
+SnapEdges=true
+ShowArea=true
+[563]
+# Laboratorios del Génesis
+SnapEdges=true
+ShowArea=true
+[565]
+# Laboratorios del Génesis
+ShowArea=true
+[566]
+# Mundo Vacío
+BattleBack=Elohim
+SnapEdges=true
+[567]
+# Mundo Vacío
+BattleBack=Planta
+SnapEdges=true
+[568]
+# Mundo Vacío
+BattleBack=Tierra
+SnapEdges=true
+[569]
+# Mundo Vacío
+BattleBack=Acero
+SnapEdges=true
+[570]
+# Campo del Silencio Inmaculado
+SafariMap=false
+SnapEdges=true
+[571]
+# Campo del Silencio Inmaculado
+SafariMap=false
+SnapEdges=true
+[572]
+# Campo del Silencio Inmaculado
+SafariMap=false
+SnapEdges=true
+[573]
+# Energía
+[574]
+# Patio
+SnapEdges=true
+[575]
+# Guarida Acechadores
+SnapEdges=true
+[576]
+# Coliseo Colosal
+SafariMap=false
+SnapEdges=true
+[577]
+# Claro Pléyade
+SnapEdges=true
+[578]
+# WaterSins
+SnapEdges=true
+[579]
+# Aldea Tarigi
+SnapEdges=true
+[580]
+# Cañón Oráculo
+SnapEdges=true
+[581]
+# Cantera Galvánica
+SnapEdges=true
+[582]
+# Campo del Silencio Inmaculado
+BattleBack=Silencio
+SnapEdges=true
+[584]
+# Puente de Celestia
+SnapEdges=true
